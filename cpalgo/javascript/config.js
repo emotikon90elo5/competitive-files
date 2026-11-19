@@ -59,7 +59,3 @@ MathJax = {
     }
   }
 }
-
-document$.subscribe(() => {
-  MathJax.typesetPromise()
-})
